@@ -27,29 +27,4 @@ node{
      echo 'App deployed to Openshift environment..'
     }
 
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+  }
