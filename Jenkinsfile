@@ -18,7 +18,7 @@ node{
     }
    
    stage("App deployment started"){
-     sh 'oc login --token=CA2Orx-YEpEK3ovZX5G8N8rNQdAtZwjbUBqNgShQF7Q --server=https://api.us-west-1.starter.openshift-online.com:6443'
+     sh 'oc login --token=OIjeLO0XoCyGMC3bxFtk8LIfbpOhUL_lW4mhMKN8xNI --server=https://api.us-west-1.starter.openshift-online.com:6443'
      sh 'oc project itrainspartans'
      sh 'oc new-app --name py-madhu madhupk/py-spartans' 
      sh 'oc expose svc py-madhu' 
